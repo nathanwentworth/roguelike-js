@@ -1,0 +1,3 @@
+var output = [
+  'hello traveller',
+]

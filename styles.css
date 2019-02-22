@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  color: #fff;
+  background-color: #222;
+  font-family: 'SF Mono','menlo','monaco', monospace;
+  min-height: 100%;
+}
+
+.dark { color: whitesmoke; background-color: #222; }
+.light { color: #333; background-color: #f1f2f3; }
+.gold { color: #333; background-color: goldenrod; }
+.offwhite { color: #3B362C; background-color: bisque; }
+.tan { color: #3B362C; background-color: burlywood; }
+.blue { color: gold; background-color: cadetblue; }
+.coral { color: whitesmoke; background-color: coral; }
+.grey { color: darkslategray; background-color: gainsboro; }
+.red { color: blanchedalmond; background-color: tomato; }
+.olive { color: lightgoldenrodyellow; background-color: olive; }
+.desert { color: maroon; background-color: tan; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+main {
+  margin-top: 20%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#game {
+  margin-left: 7rem;
+}
+
+pre {
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  width: 7em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+pre + pre {
+  margin-left: 1rem;
+}
